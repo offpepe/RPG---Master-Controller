@@ -1,0 +1,100 @@
+*{
+    margin:0; 
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #500131;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+    font-size: 20px;
+    background-color: #CADBC0;
+    text-align: center;
+    align-items: center;
+}
+
+.navegationMenu{
+    width: auto;
+}
+.navegationMenu span {
+    padding: 50px 20px 50px 20px;
+}
+.navegationMenu span a {
+    padding-right: 40px;
+}
+
+.navegationMenu a {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 60px;
+}
+
+.navegationMenu span:hover {
+    background-color: #B6CCA1;
+}
+#logo {
+    width: auto;
+}
+
+#logo img {
+    width: 60%;
+
+}
+
+main h1 {
+    font-family: 'MedievalSharp', cursive;
+    text-align: center;
+    padding: 25px 25% 25px 25%;
+}
+
+.centralArticle {
+  font-size: 0;
+}
+.rigthArticle {
+    font-size: 25px;
+    float: right;
+    width: 45%;
+    text-align: center;
+    margin-right: 3.5%;
+    
+}
+.leftArticle {
+    font-size: 25px;
+    float: left;
+    width: 45%;
+    text-align: center;
+    margin-left: 3.5%;
+}
+main .centralArticle h2 {
+    font-family: 'MedievalSharp', cursive;
+}
+
+.leftArticle img {
+    margin-top: 25px;
+}
+
+.rigthArticle img {
+    margin-top: 25px;
+    height: 237px;
+    width: 213px;
+}
+
+.comentarios{
+    font-size: 15px;
+}
+.classes{
+    background-color: aqua;
+    width: 10px;
+    height: 10px;
+}
+.tiposDeDados{
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+}
+.armasEArmaduras {
+    background-color: blueviolet;
+    width: 10px;
+    height: 10px;
+}
