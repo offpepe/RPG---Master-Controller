@@ -13,6 +13,13 @@ header {
     text-align: center;
     align-items: center;
 }
+main {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: grid;
+}
 
 .navegationMenu{
     width: auto;
@@ -84,17 +91,37 @@ main .centralArticle h2 {
     font-size: 15px;
 }
 .classes{
-    background-color: aqua;
-    width: 10px;
-    height: 10px;
+    width: 30vw;
+    height: 30vh;
+    text-align: center;
+}
+.cliqueAqui {
+    text-decoration: none;
+}
+.classes img {
+    width: 25vw;
+    height: 150px;
 }
 .tiposDeDados{
-    background-color: blue;
-    width: 10px;
-    height: 10px;
+    width: 30vw;
+    height: 30vh;
+    text-align: center;
+}
+.tiposDeDados img {
+    width: 25vw;
+    height: 150px;
 }
 .armasEArmaduras {
-    background-color: blueviolet;
-    width: 10px;
-    height: 10px;
+    width: 30vw;
+    height: 30vh;
+    text-align: center;
+}
+.armasEArmaduras img {
+    width: 25vw;
+    height: 150px;
+}
+
+.topicosDeAjuda{
+    display: flex;
+    justify-content: space-evenly
 }
