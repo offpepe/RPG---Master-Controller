@@ -23,9 +23,18 @@ main {
 
 .navegationMenu{
     width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .navegationMenu span {
-    padding: 50px 20px 50px 20px;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.redeSociais {
+    z-index: 3;
+    float: inline-start;
 }
 .navegationMenu span a {
     padding-right: 40px;
@@ -125,3 +134,25 @@ main .centralArticle h2 {
     display: flex;
     justify-content: space-evenly
 }
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.gifs{
+align-items: center;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.classes-gif img {
+    width: 100px;
+    height: 100px;
+}
+
